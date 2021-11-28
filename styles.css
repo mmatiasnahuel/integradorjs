@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+form {
+    margin: 30px;
+}
+
+form input {
+    color: black;
+    padding: 5px;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-prm {
+    padding: 10px;
+    color: black;
+}
+
+.navbar-container {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px #c51d1d solid;
+}
+
+.navbar {
+    width: 80%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    padding: 0px 20px 0px 20px;
+    font-size: 1.3em;
+    font-style: oblique;
+    cursor: pointer;
+    border-left: 2px #c51d1d solid;
+}
+
+.navbar li:hover {
+    background-color: tomato;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 100%;
+    height: 70vh;
+    background-image: url("./img1.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+.buscador input {
+    color: black;
+    width: 40%;
+    height: 30px;
+}
+
+main {
+    padding: 40px;
+}
+
+#section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-product {
+    margin: 35px;
+    float: left;
+    width: 350px;
+    height: 30vh;
+    border: 3px solid #c51d1d;
+    border-radius: 10%;
+    background-image: url("./img1.jpg");
+    background-position: center;
+}
+
+.section-new {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(165, 42, 42, 0.459);
+    border-radius: 5px;
+    margin: 40px 0px 40px 0px;
+}
+
+.section-new:hover {
+    background-color: rgba(218, 34, 34, 0.603);
+}
+
+
+.section-new p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-new img {
+    border: solid 2px white;
+    width: 500px;
+    margin: 20px 0px 20px 0px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.size-large {
+    display: none;
+}
+
+iframe {
+    display: none;
+}
+
+hr {
+    width: 80%;
+}
